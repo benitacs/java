@@ -1,0 +1,44 @@
+<div class="container">
+    <ul class="list-group">
+    
+        <li class="list-group-item active"> Courses</li>
+        <li *ngFor="let course of courses" class="list-group-item" 
+        (click)="selectCourse(course)"
+        [ngClass]="{'active': course.id == selectedCourse.id}">
+            {{course.title}}
+        </li>
+    
+        <li class="list-group-item active"> Modules</li>
+        <li *ngFor="let module of selectedCourse.modules" class="list-group-item"
+        (click)="selectModule(module)"
+        [ngClass]="{'active': module.id == selectedModule.id}">
+        {{module.title}}
+        </li>
+    
+        <li class="list-group-item active"> Lesson</li>
+        <li *ngFor="let lesson of selectedModule.lesson" class="list-group-item"
+        (click)="selectLesson(lesson)"
+        [ngClass]="{'active': lesson.id == selectedLesson.id}">
+        {{lesson.title}}
+        </li>
+    
+    </ul>
+    <br/>
+    <a routerLink="/addcourse" class="addclass">
+        Add course
+      </a>
+      <span class="tab"></span>
+      <a routerLink="/addmodule" class="addMod">
+        Add Module
+      </a>
+      <span class="tab"></span>
+      <a routerLink="/addlesson" class="addLess">
+        Add Lesson
+      </a>
+    
+      <router-outlet></router-outlet>
+    
+    </div>
+    
+    
+    

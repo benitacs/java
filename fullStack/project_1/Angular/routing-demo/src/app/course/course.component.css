@@ -1,0 +1,26 @@
+.container{  
+    padding-top: 50px;  
+    width: 600px;
+    text-align: center;  
+}   
+.addclass{
+
+    color: #295bce;  
+    font-size:18px;
+    margin-right: 10;
+}
+.addMod{
+
+    color: #295bce;  
+    font-size: 18px;
+    margin-right: 10;
+}
+.addLess{
+
+    color:  #295bce; 
+    font-size: 18px;
+    margin-right: 10;
+}
+.tab {
+    margin-left: 30px;
+}

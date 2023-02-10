@@ -1,0 +1,35 @@
+.header{  
+    height: 80px;  
+    width: 100%;  
+    background-color: #295bce;  
+    color: white;  
+    text-align: center;  
+    padding-top: 20px;  
+    margin-left: 0px  
+}  
+
+.aOne{
+    color: #295bce;  
+    font-size: 20px;
+    margin-left: 375px;
+}
+.aTwo{
+    color:  #295bce; 
+    font-size: 20px;
+    margin-left: 20px;
+}
+.aThree{
+    color:  #295bce; 
+    font-size: 20px;
+    margin-left: 20px;
+}
+.aFour{
+    color:  #295bce;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.aFive{
+    color:  #295bce; 
+    font-size: 20px;
+    margin-left: 20px;
+}

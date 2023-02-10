@@ -1,0 +1,11 @@
+<h1 class="labelOne"> Login</h1>
+<div class="container">
+    <label class="label"> username</label>
+    <input class="input" [(ngModel)]="username"><br/>
+    <label class="label"> Password</label>
+    <input class="input" [(ngModel)]="Password"><br/><br/>
+    <button class="buttonlog" (click)="login(username,Password)">Login</button>
+    <span class="tab"></span>
+
+    <button class="buttonReg" (click)="register(username, Password)"> Register</button>
+</div>
